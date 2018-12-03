@@ -11,7 +11,7 @@ Class Tank {
     int drivenMeters = 0;
         
     void move(int amountToMoveInMeters) {
-        // TODO: implement
+        drivenMeters += amountToMoveInMeters;
     }
     
 }
